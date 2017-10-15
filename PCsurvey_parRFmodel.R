@@ -30,7 +30,7 @@ training <- surveyPC_train[inTraining,]
 testing <- surveyPC_train[-inTraining,]
 # Utilize 10-fold cross validation to ensure highest quality from model performance
 fitControl <- trainControl(method = "repeatedcv", number = 10, repeats = 10)
-# Train model with Parellel Random Forest from the caret package
+# Train model with Parallel Random Forest from the caret package; predict "brand"
 LMFit1 <- train(brand~., data = training, method = "parRF", trControl=fitControl)
 #check model training
 #enter name of model
