@@ -7,6 +7,7 @@ For more information on the caret package, go here:
 http://topepo.github.io/caret/index.html
 
 Here is a "Practical Tutorial on Random Forest and Parameter Tuning in R". I did not use their methodology for my model, 
-but the first 4/5 of the tutorial is great for learning the basics of random forest decision trees.
+but the first 4/5 of the tutorial is great for learning the basics of random forest decision trees:
+https://www.hackerearth.com/practice/machine-learning/machine-learning-algorithms/tutorial-random-forest-parameter-tuning-r/tutorial/
 
 peace and love - scott
